@@ -5,7 +5,7 @@ class ConcertTicket {
   }
 
   generalFoodProvide(){
-  console.log(`${this.name} Get Free Water and Crips`);
+  console.log(`${this.zone} Get Free Water and Crips`);
   }
 }
 
