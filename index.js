@@ -6,4 +6,3 @@ const VipTicket = require ("./VipTicket")
 
 
 const seat65 = new seat65(VipTicket,150000,kiss)
-
