@@ -1,6 +1,6 @@
-const Ticket = require("./Ticket");
+const ConcertTicket = require("./ConcertTicket");
 
-class SeatingTicket extends Ticket {
+class SeatindTicket extends ConcertTicket {
   constructor(zone, price, row, seatNumber) {
     // ส่ง zone และ price ไปให้คลาสแม่ (Ticket)
     super(zone, price);
@@ -22,4 +22,4 @@ class SeatingTicket extends Ticket {
   }
 }
 
-module.exports = SeatingTicket;
+module.exports = SeatindTicket;

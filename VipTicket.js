@@ -1,3 +1,5 @@
+const ConcertTicket = require("./ConcertTicket");
+
 class VipTicket extends ConcertTicket {
   constructor(zone, price, benefits) {
     super(zone, price);
@@ -22,7 +24,7 @@ class VipTicket extends ConcertTicket {
   }
 }
 
-Module.exports = VipTicket;
+module.exports = VipTicket;
 
 // const seat = new68(Vip,120000,kiss)
 
